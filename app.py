@@ -10,7 +10,7 @@ import os
 st.set_page_config(page_title="PDF→HTML GitHub Pages公開", page_icon="📘", layout="centered")
 
 GITHUB_TOKEN = st.secrets["GITHUB_TOKEN"]  # ← GitHubトークンをStreamlit CloudのSecretsに設定
-GITHUB_REPO = "your-username/pdf-html-source"  # あなたのリポジトリ名に変更
+GITHUB_REPO = "Redboar1021/pdf-html-source"  # あなたのリポジトリ名に変更
 HTML_FILENAME = "index.html"
 
 st.title("📘 PDF → HTML 自動公開システム")
